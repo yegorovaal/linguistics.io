@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Обзор лингвистических ресурсов Интернет</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #1a2a3a;
+            background-color: #f9fafc;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            padding: 2rem 2rem 2.5rem;
+            transition: all 0.2s;
+        }
+
+        /* Типографика */
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            color: #0b2b3b;
+            letter-spacing: -0.3px;
+            border-left: 5px solid #2c7da0;
+            padding-left: 1.2rem;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            font-weight: 600;
+            margin: 1.8rem 0 0.8rem 0;
+            color: #1f5068;
+            padding-bottom: 0.3rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 1.2rem 0 0.6rem 0;
+            color: #2c3e4e;
+        }
+
+        .author-line {
+            background: #f0f4f8;
+            padding: 0.9rem 1.2rem;
+            border-radius: 20px;
+            margin: 1rem 0 1.5rem 0;
+            font-size: 1rem;
+            color: #2c5282;
+            font-weight: 500;
+            display: inline-block;
+            width: auto;
+        }
+
+        .author-line p {
+            margin: 0;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            text-align: justify;
+        }
+
+        strong {
+            color: #1e4a6e;
+            font-weight: 700;
+        }
+
+        /* Списки */
+        .main-list {
+            margin: 1.2rem 0 1.2rem 1.8rem;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .main-list > li {
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: #1f5068;
+            border-left: 3px solid #8fc1d4;
+            padding-left: 0.8rem;
+        }
+
+        .sub-list {
+            margin: 0.6rem 0 0.2rem 1.8rem;
+            list-style-type: decimal;
+            padding-left: 1rem;
+        }
+
+        .sub-list li {
+            margin-bottom: 0.6rem;
+            font-weight: normal;
+            font-size: 1rem;
+            color: #1e2f3a;
+            border-left: none;
+            padding-left: 0;
+        }
+
+        .sub-list li strong {
+            font-weight: 600;
+            color: #0f3b4f;
+        }
+
+        /* ссылки */
+        a {
+            color: #2c7da0;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s, color 0.2s;
+            word-break: break-all;
+        }
+
+        a:hover {
+            color: #1f4e6e;
+            border-bottom-color: #1f4e6e;
+        }
+
+        /* ссылка "На главную" */
+        .home-link {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.6rem 1.2rem;
+            background-color: #eef2f6;
+            border-radius: 40px;
+            font-weight: 500;
+            transition: background 0.2s;
+            border: none;
+        }
+
+        .home-link:hover {
+            background-color: #dce5ec;
+            border-bottom: none;
+        }
+
+        hr {
+            margin: 1.8rem 0 1rem;
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, #cbd5e0, transparent);
+        }
+
+        /* отступы для обычных абзацев внутри текста */
+        .note {
+            font-size: 0.95rem;
+            color: #4a627a;
+            background: #f8fafc;
+            padding: 0.2rem 0;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+            .main-list > li {
+                font-size: 1rem;
+            }
+            .sub-list {
+                margin-left: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Главный заголовок документа -->
+    <h1>Обзор ресурсов Интернет</h1>
+
+    <!-- Информация о студенте: факультет, курс, имя -->
+    <div class="author-line">
+        <p>Выполнила студентка 1 курса<br>Факультета ИСГЭО<br>Егорова Алина Денисовна</p>
+    </div>
+
+    <!-- Первый абзац с термином "Лингвистика" и его определением -->
+    <p><strong>Лингвистика</strong> (языкознание; от лат. <em>lingua</em> — 'язык') — <strong>наука</strong> о естественном человеческом языке вообще и о всех языках мира как индивидуальных его представителях.</p>
+
+    <p>В эпоху глобализации и цифровизации понимание принципов функционирования языка и его влияния на общество приобретает особую значимость. Изучение языкознания помогает развивать коммуникативные навыки, критическое мышление и способствует межкультурному взаимопониманию.</p>
+
+    <p>В сети можно найти различные ресурсы, посвящённые фонетике, грамматике, а также современным методам обучения языкам. Ниже предоставлены интернет-ресурсы, содержащие теоретические материалы, пособия и методички, которые могут быть использованы студентами-лингвистами.</p>
+
+    <!-- Основной структурированный список разделов и ссылок (полностью сохранённая иерархия) -->
+    <ul class="main-list">
+        <!-- РАЗДЕЛ 1: Общая лингвистика -->
+        <li>1. Общая лингвистика
+            <ul class="sub-list">
+                <li><strong>Понятие лингвистики:</strong> <a href="https://foxford.ru/wiki/russkiy-yazyk/lingvistika-kak-nauka" target="_blank" rel="noopener noreferrer">https://foxford.ru/wiki/russkiy-yazyk/lingvistika-kak-nauka</a></li>
+                <li><strong>Актуальность языкознания:</strong> <a href="https://nagoroh.ru/p/project/aktualnost-yazykoznaniya-v-sovremennom-mire" target="_blank" rel="noopener noreferrer">https://nagoroh.ru/p/project/aktualnost-yazykoznaniya-v-sovremennom-mire</a></li>
+                <li><strong>Лингвистические исследования и статьи:</strong> <a href="https://moluch.ru/keywords/лингвистика" target="_blank" rel="noopener noreferrer">https://moluch.ru/keywords/лингвистика</a></li>
+            </ul>
+        </li>
+
+        <!-- РАЗДЕЛ 2: Переводоведение и межкультурная коммуникация -->
+        <li>2. Переводоведение и межкультурная коммуникация
+            <ul class="sub-list">
+                <li><strong>Сайт для изучения французского языка:</strong> <a href="https://fr.prolingvo.info/" target="_blank" rel="noopener noreferrer">https://fr.prolingvo.info/</a></li>
+                <li><strong>Сайт для изучения немецкого языка:</strong> <a href="https://lingomost.com/" target="_blank" rel="noopener noreferrer">https://lingomost.com/</a></li>
+                <li><strong>Центр социальной и межкультурной адаптации и коммуникаций:</strong> <a href="https://www.rudn.ru/about/struktura-rudn/units/rektor-rudn/institut-russkogo-yazyka/centr-socialnoy-i-kulturnoy-adaptacii-i-mejkulturnoy-kommunikacii" target="_blank" rel="noopener noreferrer">https://www.rudn.ru/about/struktura-rudn/units/rektor-rudn/institut-russkogo-yazyka/centr-socialnoy-i-kulturnoy-adaptacii-i-mejkulturnoy-kommunikacii</a></li>
+            </ul>
+        </li>
+
+        <!-- РАЗДЕЛ 3: Лингвистика и информационные технологии -->
+        <li>3. Лингвистика и информационные технологии
+            <ul class="sub-list">
+                <li><strong>Корпусная лингвистика:</strong> <a href="https://ru.ruwiki.ru/wiki/Корпусная_лингвистика" target="_blank" rel="noopener noreferrer">https://ru.ruwiki.ru/wiki/Корпусная_лингвистика</a></li>
+                <li><strong>Портал для переводчиков и их клиентов:</strong> <a href="https://translationdirectory.com/" target="_blank" rel="noopener noreferrer">https://translationdirectory.com/</a></li>
+                <li><strong>Большой онлайн-словарь, поддерживающий все языки мира:</strong> <a href="https://ru.glosbe.com/" target="_blank" rel="noopener noreferrer">https://ru.glosbe.com/</a></li>
+            </ul>
+        </li>
+
+        <!-- РАЗДЕЛ 4: Научные и образовательные ресурсы -->
+        <li>4. Научные и образовательные ресурсы
+            <ul class="sub-list">
+                <li><strong>Поисковая платформа по научным публикациям из различных сфер, в том числе лингвистики и переводоведения:</strong> <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">https://scholar.google.com/</a></li>
+                <li><strong>Обучение лингвистов-переводчиков работе в системах автоматизированного машинного перевода:</strong> <a href="https://elar.urfu.ru/bitstream/10995/119147/1/urfu2443_d.pdf" target="_blank" rel="noopener noreferrer">https://elar.urfu.ru/bitstream/10995/119147/1/urfu2443_d.pdf</a> (PDF)</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
